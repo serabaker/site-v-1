@@ -1,3 +1,4 @@
+import ConnectForm from "./components/ConnectForm/ConnectForm";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
+      <ConnectForm />
     </div>
   );
 }
