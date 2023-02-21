@@ -12,16 +12,24 @@ const Navbar = () => {
       <div className="nav-list-container">
         <ul className="nav-ul">
           <li id="Home" className="nav-li">
-            Home
+            <a className="nav-a" href="#home">
+              Home
+            </a>
           </li>
           <li id="Projects" className="nav-li">
-            Projects
+            <a className="nav-a" href="#projects">
+              Projects
+            </a>
           </li>
           <li id="AboutUs" className="nav-li">
-            About Us
+            <a className="nav-a" href="#aboutus">
+              About Us
+            </a>
           </li>
           <li id="Contact" className="nav-li">
-            Contact
+            <a className="nav-a" href="#contact">
+              Contact
+            </a>
           </li>
         </ul>
       </div>

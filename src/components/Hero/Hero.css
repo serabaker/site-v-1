@@ -26,7 +26,6 @@
   margin-left: 60px;
   font-family: "Forum";
   font-size: 40px;
-
   padding: 20px;
   font-weight: 600;
   letter-spacing: 4px;
@@ -42,6 +41,7 @@
   font-size: 12px;
   margin-left: 60px;
   font-family: "Work Sans";
+  line-height: 18px;
 }
 
 .hero-btn-wrapper {
@@ -55,6 +55,8 @@
   border-radius: 20px;
   padding: 10px;
   font-family: "Work Sans";
+  cursor: pointer;
+  background-color: rgb(160, 202, 238);
 }
 
 .hero-img-wrapper {
@@ -79,4 +81,7 @@
   align-items: center;
   text-decoration: none;
   color: rgb(191, 222, 249);
+}
+.hero-btn:hover {
+  color: rgb(52, 136, 209);
 }
