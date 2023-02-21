@@ -8,11 +8,13 @@ const Hero = () => {
         <h1 className="hero-h1"> Grow your business faster</h1>
         <p className="hero-p">
           Let Lain Web Design help expand your business and its services by
-          giving your existing site a digital facelift.
+          giving your existing site a digital makeover.
         </p>
         <div className="hero-btn-wrapper">
           <button className="hero-btn" type="submit">
-            Let's Connect
+            <a className="form-a" href="/contact">
+              Let's Connect
+            </a>
           </button>
         </div>
       </div>
