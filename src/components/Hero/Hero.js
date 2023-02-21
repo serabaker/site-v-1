@@ -7,7 +7,8 @@ const Hero = () => {
       <div className="hero-text-wrapper">
         <h1 className="hero-h1"> Grow your business faster</h1>
         <p className="hero-p">
-          Lain web design helps small business owners expand their services ...
+          Let Lain Web Design help expand your business and its services by
+          giving your existing site a digital facelift.
         </p>
         <div className="hero-btn-wrapper">
           <button className="hero-btn" type="submit">
