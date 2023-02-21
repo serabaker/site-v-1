@@ -1,11 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-
+// import logo from "../../images/nav-logo.png";
 const Navbar = () => {
   return (
     <div className="nav-container">
       <div className="h1-container">
-        <img src="" alt="lain web design logo" />
+        {/* <img className="nav-img" src={logo} alt="lain web design logo" /> */}
         <h1 className="nav-h1">Lain Web Design</h1>
       </div>
 

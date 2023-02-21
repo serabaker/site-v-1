@@ -11,10 +11,18 @@
   padding-top: 30px;
   padding-bottom: 40px;
 }
-
+.nav-img {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  border: solid red 2px;
+}
 .h1-container {
   display: flex;
   position: absolute;
+  font-family: "Forum";
 }
 
 .nav-h1 {
@@ -35,7 +43,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: solid red 2px; */
   gap: 82px;
 }
 
@@ -46,4 +53,5 @@
   font-size: 12px;
   letter-spacing: 6px;
   font-weight: 100;
+  font-family: "Work Sans";
 }
