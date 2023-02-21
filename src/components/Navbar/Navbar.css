@@ -8,13 +8,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-bottom: 40px;
 }
 
 .h1-container {
   display: flex;
-  /* border: red solid 3px; */
   position: absolute;
 }
 
@@ -27,8 +26,7 @@
 }
 .nav-list-container {
   display: flex;
-  /* padding: 19px; */
-  margin-top: 140px;
+  margin-top: 110px;
   position: absolute;
   /* border: solid red 2px; */
 }
