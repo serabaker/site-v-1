@@ -11,23 +11,23 @@ const Navbar = () => {
 
       <div className="nav-list-container">
         <ul className="nav-ul">
-          <li id="Home" className="nav-li">
-            <a className="nav-a" href="#home">
+          <li id="#Home" className="nav-li">
+            <a className="nav-a" href="/">
               Home
             </a>
           </li>
-          <li id="Projects" className="nav-li">
-            <a className="nav-a" href="#projects">
+          <li id="#Projects" className="nav-li">
+            <a className="nav-a" href="/projects">
               Projects
             </a>
           </li>
-          <li id="AboutUs" className="nav-li">
-            <a className="nav-a" href="#aboutus">
+          <li id="#AboutUs" className="nav-li">
+            <a className="nav-a" href="/aboutus">
               About Us
             </a>
           </li>
-          <li id="Contact" className="nav-li">
-            <a className="nav-a" href="#contact">
+          <li id="#Contact" className="nav-li">
+            <a className="nav-a" href="/contact">
               Contact
             </a>
           </li>
