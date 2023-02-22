@@ -5,30 +5,37 @@
   /* scroll-behavior: smooth; */
 }
 .form-container {
-  display: flex;
+  display: block;
   justify-content: center;
   text-align: center;
 }
 .contact-h1 {
   display: flex;
   justify-content: center;
-  text-align: center;
-  margin: 20px;
+  align-items: center;
+  margin-bottom: 100px;
   color: black;
-  font-family: "Work Sans";
+  font-family: "Forum";
+  font-size: 34px;
+  letter-spacing: 12px;
+  color: rgb(36, 156, 156);
 }
 .form-ul {
-  /* border: solid red 2px; */
-  display: block;
+  border: solid rgb(36, 156, 156) 3px;
+  display: inline-block;
   justify-content: center;
   text-align: right;
-  margin: 20px;
+  margin: 60px;
+  padding: 120px;
+  border-radius: 30px;
 }
 .form-li {
   list-style: none;
 }
 
 .label {
+  /* border: solid red 2px; */
+
   letter-spacing: 2px;
   font-family: "Forum";
   color: rgb(52, 136, 209);
@@ -56,4 +63,20 @@
 
 .form-a:hover {
   color: rgb(82, 142, 195);
+}
+
+.contact-h2 {
+  margin-top: 60px;
+  font-size: 18px;
+  /* border: solid black 1px; */
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  word-wrap: break-word;
+  font-weight: 100;
+}
+.text-area {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
 }
